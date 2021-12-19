@@ -1,9 +1,9 @@
+import SnakeGame from './SnakeGame'
 
 function App() {
   return (
-    <div className="App">
-      <p>test</p>
-    </div>
+    //React componet that is going to be the board may be renamed
+      <SnakeGame/>
   );
 }
 
