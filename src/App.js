@@ -1,9 +1,13 @@
-import SnakeGame from './SnakeGame'
+import Game from "./Game";
+import React, { useState } from 'react';
+import './App.css'
 
 function App() {
-  return (
-    //React componet that is going to be the board may be renamed
-      <SnakeGame/>
+  return(
+    <div>
+      <h1>Snake Game</h1>
+      <Game/>
+    </div>
   );
 }
 
